@@ -1,0 +1,394 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Main Styling */
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+h1, h2, h3{
+    padding-bottom: 20px;
+
+}
+p{
+    padding: 10px 0;
+}
+/* Utility Classes */
+.container{
+    margin: auto;
+    max-width:1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.text-coffee{
+    color: #4A2C2A
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background:#333 ;
+    padding: 13px 20px;
+    margin-right: 120px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #f7c08a;
+    color: #333;
+}
+/* Navbar */
+#navbar{
+    background: #6f4e37 ;
+    color:#fff;
+    overflow: auto;
+}
+#navbar a{
+    color: #fff;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background:#444;
+    color: #f7c08a;
+}
+/* Main Content */
+#main-content{
+    background: url('../images/nathan-dumlao-KixfBEdyp64-unsplash.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+.intro{
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+.intro h1{
+    font-size: 60px;
+    /* line-height: 1.2em; */
+}
+.tagline{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+#home-info{
+    height: 400px;
+}
+#home-info .info-img1{
+    float: left;
+    width: 50%;
+    background: url('../images/latte-starbucks_tcm87-16216_w1024_n.png') no-repeat;
+    min-height:100%;
+    
+}
+.heading{
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 55px;
+    line-height:1.2em;
+}
+#home-info .info-content1{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    padding : 50px 30px
+}
+#home-info .info-img2{
+    float: right;
+    width: 50%;
+    background: url('../images/reading-vintage-old-book-coffee-260nw-293234252.webp')no-repeat;
+    min-height: 100%;
+    background-position: 200px 10px;
+}
+#home-info .info-content2 p{
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 55px;
+    padding : 50px 50px;
+}
+#home-info .info-content2 .book{
+    padding-left: 120px;
+}
+#home-info .info-img3{
+    float: left;
+    width: 50%;
+    background: url('../images/beautiful_mountain_view-t2.jpg') no-repeat;
+    min-height:100%;
+    margin-left: 50px;
+}
+#home-info .info-content3 p{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 55px;
+    padding : 50px 50px;
+    margin-top: -400px;
+
+}
+.clr{
+    clear: both;
+}
+/* Footer */
+.main-footer{
+    background: black;
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.footer_slogan{
+    color: #9b9b9b;
+}
+#footer-nav{
+    overflow: auto; 
+}
+#footer-nav ul {
+    list-style: none;
+    float: right;
+    width: 800px;
+    margin:0 auto;
+    
+}
+.footer-navbar{
+    float: right;
+    overflow: auto;
+    margin-top: -100px
+}
+#footer-nav ul li a{
+    color: #4E4E4E;
+}
+ .address{
+     float: right;
+     /* text-align: center; */
+     margin-left: 350px;
+     margin-top: -135px;
+     margin-right: 500px;
+ }
+ .footer-adress-row{
+     display: block;
+ }
+.social{
+    float: right;
+     margin-left: 350px;
+     margin-top: -135px;
+     margin-right: 330px;
+}
+.footer-social{
+    display: block;
+}
+.business{
+     float: right;
+     margin-left: 350px;
+     margin-top: -135px;
+     margin-right: 80px;
+}
+/* Menu Styling */
+.menu-heading{
+    font-size: 90px;
+    text-align: center;
+    padding-top: 300px;
+    padding-right: 150px;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bolder;
+}
+#menu-img{
+    background: url('../images/alex-jones-h_bYfwwOjXk-unsplash.jpg') no-repeat center center/cover;
+    height: 900px;
+}
+img{
+    max-width: 100%;
+  height: auto;
+}
+ .content-menu{
+     background: black; 
+    
+} 
+ .content-para{
+    color:rgba(255,255,255,0.3);
+    font-size: 18px;
+    line-height: 1.5;
+} 
+.content-head{
+    color: #fff;
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-size: 30px;
+    padding-top: 50px;
+    font-family: 'Satisfy', cursive;
+    font-weight: lighter;
+}  
+.img-1{
+    display: inline-block;
+    width:  370px;
+    height: 267px;
+    background-size: cover;
+    background: url(../images/menu/rsz_11rsz_espresso.jpg);
+   
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+}
+.img-2{
+    display: inline-block;
+    width:  370px;
+    height: 267px;
+    background-size: cover;
+    background: url(../images/menu/rsz_filter_coffee.jpg);
+    margin-top: 50px;
+    margin-left: 300px;
+
+}
+.espresso{
+    color:rgba(255,255,255,0.3);
+    font-size: 20px;
+    padding-top: 20px;
+    /* font-family: 'Satisfy', cursive; */
+    font-weight: lighter;
+}
+.amount{
+    color: yellow;
+    font-size: 22px;
+    margin-top: 10px;
+
+}
+.hero-container{
+    width: 400px;
+    display: inline-block;
+}
+.img-2{ 
+    display: inline-block;
+   
+}
+.menu-des2{
+    width: 400px;
+    margin-left: 275px;
+    padding-left: 20px;
+   
+}
+.menu-des1{
+    margin-bottom: 50px;
+}
+.img-3{
+    display: inline-block;
+    width:  370px;
+    height: 267px;
+    background-size: cover;
+    background: url(../images/menu/resized/americano.jpg);
+}
+.img-4{
+    display: inline-block;
+    width:  370px;
+    height: 267px;
+    background-size: cover;
+    background: url(../images/menu/resized/latte.jpg);
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.menu-des4{
+    width: 400px;
+    margin-left: 275px;
+    padding-left: 20px; 
+}
+.img-5{
+    display: inline-block;
+    width:  370px;
+    height: 267px;
+    background-size: cover;
+    background: url(../images/menu/resized/cappucciono.jpg);
+    margin-top: 30px;
+}
+.img-6{
+    display: inline-block;
+    width:  370px;
+    height: 267px;
+    background-size: cover;
+    background: url(../images/menu/resized/greentea.jpg);
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.menu-des6{
+    width: 400px;
+    margin-left: 275px;
+    padding-left: 20px; 
+
+}
+
+/* Reservation */
+
+.reservation-form{
+    text-align: center;
+    background: white
+}
+.loginbox{
+    width: 320px;
+    height: 600px;
+    background: #000;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    margin: 0 auto;
+   
+    
+}
+#res-img{
+    background: url('../images/pic1.jpg') no-repeat center center/cover;
+    height: 900px;
+    padding-top: 80px;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
